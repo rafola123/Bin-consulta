@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: site-bin-doc
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python app.py"
